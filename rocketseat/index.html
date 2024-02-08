@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre seu mozão</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    
+    <main>
+        <header class="container">
+            <h1>Será que você conhece seu namorado?</h1>
+            <h1>(Luiz óbvio, não existe outro)</h1>
+            <h2>Responda as perguntas e descubra de verdade!</h2>
+        </header>
+
+        <div id="quiz"></div>
+        
+        <template id="quiz__template">
+            <div class="quiz-item">
+                <h3>Pergunta 1</h3>
+                <dl>
+                    <dt>
+                        <input type="radio" name="item" id="0">
+                        <span> Resposta A</span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+
+        <div id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 10</span>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </main>  
+
+</body>
+</html>
