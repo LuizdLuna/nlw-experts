@@ -1,104 +1,95 @@
 const perguntas = [
     {
-        pergunta: "Qual será o curso da falculdade do Dedê?",
+        pergunta: "Qual é a origem da corrida do queijo?",
         respostas: [
-            "Engenharia de Software",
-            "Cyber Segurança",
-            "Analise e Desenvolvimento de Sistemas",
-        ],
-        correta: 2
-    },
-
-    {
-        pergunta: "O que o seu amor mais gostou de praticar na vida?",
-        respostas: [
-            "Andar de Skate",
-            "Jogar Basquete",
-            "Tocar Guitarra",
-        ],
-        correta: 1
-    },
-
-    {
-        pergunta: "Do que o Luninha mais sente falta todos os dias?",
-        respostas: [
-            "Sair em rolê com os amigos",
-            "Podzin dos cria",
-            "Você (Sara Sakura Shimokawa)",
-        ],
-        correta: 2
-    },
-
-    {
-        pergunta: "Qual é o jogo favorito do seu neném atualmente?",
-        respostas: [
-            "Palworld",
-            "Tekken",
-            "Fortnite",
-        ],
-        correta: 1
-    },
-
-    {
-        pergunta: "Qual foi o jogo que sua balinha citrus mais jogou na vida?",
-        respostas: [
-            "Fortinite",
-            "Counte-Strike Global Offensive",
-            "Apex Legends",
-        ],
-        correta: 1
-    },
-    
-    {
-        pergunta: "Qual é a parte do corpo da nena que o chickolittle mais gosta?",
-        respostas: [
-            "Sorriso",
-            "Bunda",
-            "Seios",
+            "Inglaterra",
+            "França",
+            "Itália",
         ],
         correta: 0
     },
-
     {
-        pergunta: "O que faz seu amorzinho se emocionar assistindo Interestelar?",
+        pergunta: "Qual é o objetivo principal da corrida do queijo?",
         respostas: [
-            "Se apegar a dor de perder as pessoas",
-            "Ver que o tempo pode ser traiçoeiro",
-            "Compreender o sentimento de ser pai",
-        ],
-        correta: 2
-    },
-
-    {
-        pergunta: "Qual é o anime que seu xuxuzinho mais gosta?",
-        respostas: [
-            "Jujutsu Kaisen",
-            "Bleach",
-            "Dragon Ball",
+            "Correr o mais rápido possível",
+            "Capturar o queijo",
+            "Chegar ao final da pista primeiro",
         ],
         correta: 1
     },
-
     {
-        pergunta: "Qual é a banda que estava tocando no primeiro dia de vuco vuco nosso? (Duvido acertar essa)",
+        pergunta: "Em que tipo de terreno geralmente ocorre a corrida do queijo?",
         respostas: [
-            "Sleep Token",
-            "Slipknot",
-            "Loathe",
+            "Plano",
+            "Montanhoso",
+            "Desértico",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o prêmio para o vencedor da corrida do queijo?",
+        respostas: [
+            "Dinheiro",
+            "Um queijo gigante",
+            "Troféu de ouro",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o perigo mais comum enfrentado pelos participantes da corrida do queijo?",
+        respostas: [
+            "Queimaduras solares",
+            "Lesões musculares",
+            "Quedas e contusões",
         ],
         correta: 2
     },
-
     {
-        pergunta: "Qual é o trio de cores favorito do seu mozão?",
+        pergunta: "Quantos competidores geralmente participam da corrida do queijo?",
         respostas: [
-            "Preto, vermelho e roxo",
-            "Preto, azul e vermelho",
-            "Preto, branco e roxo",
+            "Dez",
+            "Vinte",
+            "Cinquenta",
         ],
-        correta: 0
+        correta: 2
     },
-]
+    {
+        pergunta: "Qual é a data mais comum para a realização da corrida do queijo?",
+        respostas: [
+            "1 de janeiro",
+            "25 de dezembro",
+            "30 de maio",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é a duração média da corrida do queijo?",
+        respostas: [
+            "1 hora",
+            "30 minutos",
+            "Menos de 2 minutos",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o nome da famosa corrida de queijo realizada na Inglaterra?",
+        respostas: [
+            "Queijo azul",
+            "Queijo vermelho",
+            "Queijo duplo Gloucester",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o principal motivo pelo qual as autoridades locais muitas vezes desaprovam a corrida do queijo?",
+        respostas: [
+            "Risco de danos ao meio ambiente",
+            "Preocupações com a segurança dos participantes",
+            "Preocupações com a saúde dos espectadores",
+        ],
+        correta: 1
+    }
+];
 
 const corretas = new Set()
 const totalDePerguntas = perguntas.length
